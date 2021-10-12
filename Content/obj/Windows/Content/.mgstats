@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/dea39/source/repos/SpaceWar/Content/backgroundMusic1.mp3","C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/backgroundMusic1.xnb","SongProcessor","SongContent",6761314,134,3.3014405
+"C:/Users/dea39/source/repos/SpaceWar/Content/Enemy.png","C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/Enemy.xnb","TextureProcessor","Texture2DContent",36842,194425,0.1512405
+"C:/Users/dea39/source/repos/SpaceWar/Content/Fireball.png","C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/Fireball.xnb","TextureProcessor","Texture2DContent",2380,223285,0.0082829
+"C:/Users/dea39/source/repos/SpaceWar/Content/Spaceship.png","C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/Spaceship.xnb","TextureProcessor","Texture2DContent",115534,446053,0.0132678

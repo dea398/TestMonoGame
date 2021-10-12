@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/dea39/source/repos/SpaceWar/Content/backgroundMusic1.mp3</SourceFile>
+  <SourceTime>2021-10-06T06:59:47.0113255-05:00</SourceTime>
+  <DestFile>C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/backgroundMusic1.xnb</DestFile>
+  <DestTime>2021-10-06T07:09:36.8270173-05:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2020-08-10T11:17:54-05:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2020-08-10T11:17:54-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/dea39/source/repos/SpaceWar/Content/bin/Windows/Content/backgroundMusic1.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
