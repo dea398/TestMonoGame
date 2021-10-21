@@ -10,7 +10,7 @@ namespace SpaceWar
     /// <summary>
     /// The player, controlled by the keyboard
     /// </summary>
-    class Player:Sprite
+    class Player : Sprite
     {
         /// <summary>
         /// A reference to the game that will contain the player
@@ -21,6 +21,8 @@ namespace SpaceWar
         /// Represents the number of pixels to move the player in the Y axis
         /// </summary>
         Point velocity;
+
+        List<Projectile> projectiles;
 
         /// <summary>
         /// To save the previous state of the keyboard to avoid undesired keyboard behavior
@@ -39,6 +41,7 @@ namespace SpaceWar
             velocity = new Point(0, 10);
             imageName = "Spaceship";
             this.LoadContent();
+            projectiles = new List<Projectile>();
             previousKeyboardState = Keyboard.GetState();
         }
 
@@ -72,6 +75,11 @@ namespace SpaceWar
                 }
             }
 
+            if (currentKeyboardState.IsKeyDown(Keys.Space) && !previousKeyboardState.IsKeyDown(Keys.Space))
+            {
+                projectiles.Add(new Projectile(this.root, this.position));
+            }
+
             //assign the currentState to the previous one so in the next frame call we can detect if there is a new key pressed
             previousKeyboardState = currentKeyboardState;
         }
@@ -80,6 +88,20 @@ namespace SpaceWar
         {
             // Handle any movement input
             HandleInput(Keyboard.GetState());
+
+            foreach (var item in projectiles)
+            {
+                item.Update();
+            }
+        }
+
+        public new void Draw(GameTime gameTime, SpriteBatch spriteBatch, Color _color)
+        {
+            base.Draw(gameTime,spriteBatch, _color);
+            foreach (var item in projectiles)
+            {
+                item.Draw(gameTime, spriteBatch, Color.White);
+            }
         }
 
         //Testing code about how to rotate a sprite around its center point as origin

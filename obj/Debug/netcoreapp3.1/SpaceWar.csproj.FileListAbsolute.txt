@@ -1,3 +1,5 @@
+C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\backgroundMusic1.wma
+C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\backgroundMusic1.xnb
 C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\Enemy.xnb
 C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\Fireball.xnb
 C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\Spaceship.xnb
@@ -38,5 +40,3 @@ C:\Users\dea39\source\repos\SpaceWar\obj\Debug\netcoreapp3.1\SpaceWar.csproj.Cop
 C:\Users\dea39\source\repos\SpaceWar\obj\Debug\netcoreapp3.1\SpaceWar.dll
 C:\Users\dea39\source\repos\SpaceWar\obj\Debug\netcoreapp3.1\SpaceWar.pdb
 C:\Users\dea39\source\repos\SpaceWar\obj\Debug\netcoreapp3.1\SpaceWar.genruntimeconfig.cache
-C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\backgroundMusic1.wma
-C:\Users\dea39\source\repos\SpaceWar\bin\Debug\netcoreapp3.1\Content\backgroundMusic1.xnb
