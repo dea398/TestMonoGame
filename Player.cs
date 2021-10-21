@@ -89,6 +89,15 @@ namespace SpaceWar
             // Handle any movement input
             HandleInput(Keyboard.GetState());
 
+            for (int i = projectiles.Count-1; i>-1; i--)
+            {
+                var item = projectiles[i];
+                if (item.PositionRectangle.X > this.root.Window.ClientBounds.Width)
+                {
+                    projectiles.Remove(item);
+                }
+            }
+
             foreach (var item in projectiles)
             {
                 item.Update();
@@ -98,6 +107,7 @@ namespace SpaceWar
         public new void Draw(GameTime gameTime, SpriteBatch spriteBatch, Color _color)
         {
             base.Draw(gameTime,spriteBatch, _color);
+            
             foreach (var item in projectiles)
             {
                 item.Draw(gameTime, spriteBatch, Color.White);
